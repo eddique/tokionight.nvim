@@ -109,6 +109,9 @@ require('lazy').setup({
     end
   },
   {
+    'martinsione/darkplus.nvim',
+  },
+  {
    'folke/tokyonight.nvim',
     -- priority = 1000,
     -- config = function()
