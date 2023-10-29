@@ -102,11 +102,18 @@ require('lazy').setup({
     },
   },
   {
-   'folke/tokyonight.nvim',
+    'rose-pine/neovim',
     priority = 1000,
     config = function()
-      vim.cmd.colorscheme 'tokyonight'
+        vim.cmd.colorscheme 'rose-pine'
     end
+  },
+  {
+   'folke/tokyonight.nvim',
+    -- priority = 1000,
+    -- config = function()
+    --   vim.cmd.colorscheme 'tokyonight'
+    -- end
   },
   {
     -- Set lualine as statusline
@@ -115,7 +122,7 @@ require('lazy').setup({
     opts = {
       options = {
         icons_enabled = false,
-        theme = 'tokyonight',
+        theme = 'rose-pine',
         component_separators = '|',
         section_separators = '',
       },
