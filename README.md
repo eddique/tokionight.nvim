@@ -35,6 +35,7 @@ Select the LSP for the language, and hit i to install.
 ### Config Structure
 
 This may be helpful if you are new to lua and configuring nvim
+```sh
 .
 ├── README.md
 ├── init.lua # configurations imported here for use
@@ -48,3 +49,4 @@ This may be helpful if you are new to lua and configuring nvim
         │   ├── telescope.lua # telescope plugin configs (fuzzy searching)
         │   └── treesitter.lua # treesitter plugin configs
         └── plugins.lua # package manager, plugins installed here
+```
